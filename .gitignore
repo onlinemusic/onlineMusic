@@ -1,0 +1,6 @@
+#idea ignore
+target/
+.idea/
+out/
+src/test/
+*.war
