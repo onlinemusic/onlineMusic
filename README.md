@@ -16,7 +16,7 @@
 -   第一次时需要,与团队仓库建立联系
 
 ``` {.bash}
-git remote add upstream https://github.com/Scurt123/onlineMusic.git
+git remote add upstream https://github.com/onlinemusic/onlineMusic.git
 ```
 
 -   工作前后要运行这几条命令,和团队项目保持同步
