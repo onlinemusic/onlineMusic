@@ -6,7 +6,7 @@
 项目总监要求:
 --------------------------
 -   采用主、子分支，每个人fork到本地仓库，需要合并再与主分支合并。
--   目前打算采用的spring、springMVC、Hibernare  ssh框架。
+-   目前打算采用的spring、springMVC、Hibernate  ssh框架。
 -   目前开发工具为idea
 <br>
 
