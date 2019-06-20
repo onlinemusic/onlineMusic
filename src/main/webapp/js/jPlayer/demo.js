@@ -88,7 +88,6 @@ $(document).ready(function(){
   });
 
 
-
   // video
 
   $("#jplayer_1").jPlayer({

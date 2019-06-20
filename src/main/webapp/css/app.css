@@ -27,6 +27,9 @@ a:focus {
   color: #303437;
   text-decoration: none;
 }
+#fotgetPassword:hover{
+	color: #fad733;
+}
 label {
   font-weight: normal;
 }
