@@ -7,17 +7,17 @@
     <title>Music | Web Application</title>
     <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="stylesheet" href="/onlinemusic/js/jPlayer/jplayer.flat.css" type="text/css" />
-    <link rel="stylesheet" href="/onlinemusic/css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="/onlinemusic/css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="/onlinemusic/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="/onlinemusic/css/simple-line-icons.css" type="text/css" />
-    <link rel="stylesheet" href="/onlinemusic/css/font.css" type="text/css" />
-    <link rel="stylesheet" href="/onlinemusic/css/app.css" type="text/css" />
+    <link rel="stylesheet" href="/js/jPlayer/jplayer.flat.css" type="text/css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="/css/simple-line-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/css/font.css" type="text/css" />
+    <link rel="stylesheet" href="/css/app.css" type="text/css" />
     <!--[if lt IE 9]>
-    <script src="/onlinemusic/js/ie/html5shiv.js"></script>
-    <script src="/onlinemusic/js/ie/respond.min.js"></script>
-    <script src="/onlinemusic/js/ie/excanvas.js"></script>
+    <script src="/js/ie/html5shiv.js"></script>
+    <script src="/js/ie/respond.min.js"></script>
+    <script src="/js/ie/excanvas.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -26,9 +26,9 @@
             <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
                 <i class="icon-list"></i>
             </a>
-            <a href="/onlinemusic/index.jsp" class="navbar-brand text-lt">
+            <a href="/index.jsp" class="navbar-brand text-lt">
                 <i class="icon-earphones"></i>
-                <img src="/onlinemusic/images/logo.png" alt="." class="hide">
+                <img src="/images/logo.png" alt="." class="hide">
                 <span class="hidden-nav-xs m-l-sm">Music</span>
             </a>
             <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
@@ -55,7 +55,7 @@
         <div class="navbar-right ">
             <ul class="nav navbar-nav m-n hidden-xs nav-user user">
                 <li class="hidden-xs">
-                    <a href="/onlinemusic/frontdesk/signin.jsp" class="dropdown-toggle lt">
+                    <a href="/frontdesk/signin.jsp" class="dropdown-toggle lt">
                         登录
                     </a>
                 </li>
@@ -68,17 +68,17 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
                   <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
-                    <img src="/onlinemusic/images/a0.png" alt="...">
+                    <img src="/images/a0.png" alt="...">
                   </span>
                         John.Smith <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu animated fadeInRight">
                         <li>
                             <span class="arrow top"></span>
-                            <a href="/onlinemusic/frontdesk/musiccollection.jsp">我的音乐收藏</a>
+                            <a href="/frontdesk/musiccollection.jsp">我的音乐收藏</a>
                         </li>
                         <li>
-                            <a href="/onlinemusic/frontdesk/mymember.jsp">我的会员</a>
+                            <a href="/frontdesk/mymember.jsp">我的会员</a>
                         </li>
                         <li class="divider"></li>
                         <li>
@@ -103,19 +103,19 @@
                                     Discover
                                 </li>
                                 <li>
-                                    <a href="/onlinemusic/index.jsp">
+                                    <a href="/index.jsp">
                                         <i class="icon-disc icon text-success"></i>
                                         <span class="font-bold">热门&最新</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/onlinemusic/frontdesk/genres.jsp">
+                                    <a href="/frontdesk/genres.jsp">
                                         <i class="icon-music-tone-alt icon text-info"></i>
                                         <span class="font-bold">分类</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/onlinemusic/frontdesk/listen.jsp">
+                                    <a href="/frontdesk/listen.jsp">
                                         <i class="icon-list icon  text-info-dker"></i>
                                         <span class="font-bold">播放列表</span>
                                     </a>
@@ -129,6 +129,8 @@
                 </section>
             </section>
         </aside>
+     </section>
+     </section>
 
 </body>
 </html>

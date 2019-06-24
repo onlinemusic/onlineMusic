@@ -13,5 +13,5 @@ http://www.springframework.org/schema/aop
 http://www.springframework.org/schema/aop/spring-aop.xsd">
 	
 	<aop:aspectj-autoproxy />
-	<context:component-scan base-package="dao,domain,serivce,utils,web"/>
+	<context:component-scan base-package="dao,domain,service,utils,web"/>
 </beans>
