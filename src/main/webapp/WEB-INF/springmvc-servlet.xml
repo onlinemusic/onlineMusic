@@ -35,6 +35,7 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	<mvc:resources mapping="/fonts/**" location="/fonts/" />
 	<mvc:resources mapping="/less/**" location="/less/" />
 	<mvc:resources mapping="/css/**" location="/css/" />
+	<mvc:resources mapping="/resources/**" location="/resources/" />
 
 	<!--<mvc:resources mapping="/resources/**" location="/resources/" />-->
 	<!--<mvc:resources mapping="/WEB-INF/jsp/admin/**" location="/resources/" />-->
