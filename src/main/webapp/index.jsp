@@ -36,10 +36,10 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
-                          <a href="/onlinemusic/frontdesk/track-detail.jsp" class="text-ellipsis">
+                          <a href="/frontdesk/track-detail.jsp" class="text-ellipsis">
                           	Tempered Song
                           	<span class="text-ellipsis text-xs text-muted">Miaow</span>
                           </a>
@@ -60,7 +60,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -82,7 +82,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -104,7 +104,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -126,7 +126,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -148,7 +148,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -170,7 +170,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -192,7 +192,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -214,7 +214,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -236,7 +236,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -258,7 +258,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -280,7 +280,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>

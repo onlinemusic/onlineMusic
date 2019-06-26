@@ -35,7 +35,7 @@
                               </a>
                             </div>
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="track-detail.jsp" class="text-ellipsis">
@@ -59,7 +59,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -81,7 +81,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -103,7 +103,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -125,7 +125,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -147,7 +147,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -169,7 +169,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -191,7 +191,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -213,7 +213,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -235,7 +235,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -257,7 +257,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -279,7 +279,7 @@
                             </div>
                            
                           </div>
-                          <a href="#"><img src="/onlinemusic/images/p1.jpg" alt="" class="r r-2x img-full"></a>
+                          <a href="#"><img src="/images/p1.jpg" alt="" class="r r-2x img-full"></a>
                         </div>
                         <div class="padder-v">
                           <a href="#" class="text-ellipsis">Tempered Song</a>
@@ -310,15 +310,15 @@
       </section>
     </section>    
   </section>
-  <script src="js/jquery.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
   <!-- Bootstrap -->
-  <script src="js/bootstrap.js"></script>
+  <script src="/js/bootstrap.js"></script>
   <!-- App -->
-  <script src="js/app.js"></script>  
-  <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="js/app.plugin.js"></script>
-  <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
-  <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
-  <script type="text/javascript" src="js/jPlayer/demo.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/js/app.plugin.js"></script>
+  <script type="text/javascript" src="/js/jPlayer/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="/js/jPlayer/add-on/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="/js/jPlayer/demo.js"></script>
 </body>
 </html>

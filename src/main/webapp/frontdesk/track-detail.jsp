@@ -16,7 +16,7 @@
                   <div class="panel wrapper-lg">
                     <div class="row">
                       <div class="col-sm-5">
-                        <img src="/onlinemusic/images/m10.jpg" class="img-full m-b">
+                        <img src="/images/m10.jpg" class="img-full m-b">
                       </div>
                       <div class="col-sm-7">
                         <h2 class="m-t-none text-black">单曲:Tincidunt ut laoreet</h2>
@@ -41,7 +41,7 @@
                     <section class="comment-list block">
                       <article id="comment-id-1" class="comment-item">
                         <a class="pull-left thumb-sm">
-                          <img src="/onlinemusic/images/a0.png" class="img-circle">
+                          <img src="/images/a0.png" class="img-circle">
                         </a>
                         <section class="comment-body m-b">
                           <header>
@@ -57,7 +57,7 @@
                       <!-- .comment-reply -->
                       <article  class="comment-item comment-reply">
                         <a class="pull-left thumb-sm">
-                          <img src="/onlinemusic/images/a1.png" class="img-circle">
+                          <img src="/images/a1.png" class="img-circle">
                         </a>
                         <section class="comment-body m-b">
                           <header>
@@ -75,7 +75,7 @@
                       <!-- / .comment-reply -->
                       <article  class="comment-item">
                         <a class="pull-left thumb-sm">
-                          <img src="/onlinemusic/images/a2.png" class="img-circle">
+                          <img src="/images/a2.png" class="img-circle">
                         </a>
                         <section class="comment-body m-b">
                           <header>
@@ -108,7 +108,7 @@
                     <div class="panel-body">
                       <article class="media">
                         <a href="#" class="pull-left thumb-md m-t-xs">
-                          <img src="/onlinemusic/images/m18.jpg">
+                          <img src="/images/m18.jpg">
                         </a>
                         <div class="media-body">                        
                           <a href="#" class="font-semibold">Bootstrap 3: What you need to know</a>
@@ -117,7 +117,7 @@
                       </article>
                       <article class="media">
                         <a href="#" class="pull-left thumb-md m-t-xs">
-                          <img src="/onlinemusic/images/m19.jpg">
+                          <img src="/images/m19.jpg">
                         </a>
                         <div class="media-body">                        
                           <a href="#" class="font-semibold">Lorem ipsum dolor sit amet it.</a>
@@ -126,7 +126,7 @@
                       </article>
                       <article class="media">
                         <a href="#" class="pull-left thumb-md m-t-xs">
-                          <img src="/onlinemusic/images/m20.jpg">
+                          <img src="/images/m20.jpg">
                         </a>
                         <div class="media-body">                        
                           <a href="#" class="font-semibold">Sed diam nonummy tincidunt ut laoreet</a>
@@ -135,7 +135,7 @@
                       </article>
                       <article class="media">
                         <a href="#" class="pull-left thumb-md m-t-xs">
-                          <img src="/onlinemusic/images/m21.jpg">
+                          <img src="/images/m21.jpg">
                         </a>
                         <div class="media-body">                        
                           <a href="#" class="font-semibold">Lonummy nibh euismod sed laoreet</a>
@@ -144,7 +144,7 @@
                       </article>
                       <article class="media">
                         <a href="#" class="pull-left thumb-md m-t-xs">
-                          <img src="/onlinemusic/images/m22.jpg">
+                          <img src="/images/m22.jpg">
                         </a>
                         <div class="media-body">                        
                           <a href="#" class="font-semibold">Mibh euismod tincidunt ut laoreet</a>

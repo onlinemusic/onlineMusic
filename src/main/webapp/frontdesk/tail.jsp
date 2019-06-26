@@ -71,15 +71,15 @@
         </div>
     </footer>
 
-    <script src="/onlinemusic/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
   <!-- Bootstrap -->
-    <script src="/onlinemusic/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.js"></script>
   <!-- App -->
-    <script src="/onlinemusic/js/app.js"></script>
-    <script src="/onlinemusic/js/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="/onlinemusic/js/app.plugin.js"></script>
-    <script type="text/javascript" src="/onlinemusic/js/jPlayer/jquery.jplayer.min.js"></script>
-    <script type="text/javascript" src="/onlinemusic/js/jPlayer/add-on/jplayer.playlist.min.js"></script>
-    <script type="text/javascript" src="/onlinemusic/js/jPlayer/demo.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/js/app.plugin.js"></script>
+    <script type="text/javascript" src="/js/jPlayer/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="/js/jPlayer/add-on/jplayer.playlist.min.js"></script>
+    <script type="text/javascript" src="/js/jPlayer/demo.js"></script>
 </body>
 </html>

@@ -26,7 +26,7 @@
             <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
                 <i class="icon-list"></i>
             </a>
-            <a href="/index.jsp" class="navbar-brand text-lt">
+            <a href="/frontdesk/index.jsp" class="navbar-brand text-lt">
                 <i class="icon-earphones"></i>
                 <img src="/images/logo.png" alt="." class="hide">
                 <span class="hidden-nav-xs m-l-sm">Music</span>
@@ -54,38 +54,43 @@
         </form>
         <div class="navbar-right ">
             <ul class="nav navbar-nav m-n hidden-xs nav-user user">
-                <li class="hidden-xs">
-                    <a href="/frontdesk/signin.jsp" class="dropdown-toggle lt">
-                        登录
-                    </a>
-                </li>
-                <li class="hidden-xs">
-                  <a href="signup.jsp" class="dropdown-toggle lt" data-toggle="dropdown" style="color:#428bca">
-                    注册
-                  </a>
-                </li>
-                <!-- 登录之后执行这个样式
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
-                  <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
-                    <img src="/images/a0.png" alt="...">
-                  </span>
-                        John.Smith <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu animated fadeInRight">
-                        <li>
-                            <span class="arrow top"></span>
-                            <a href="/frontdesk/musiccollection.jsp">我的音乐收藏</a>
+                <c:choose>
+                    <c:when test="${empty sessionScope.user}">
+                        <li class="hidden-xs">
+                            <a href="/frontdesk/signin.jsp" class="dropdown-toggle lt">
+                                登录
+                            </a>
                         </li>
-                        <li>
-                            <a href="/frontdesk/mymember.jsp">我的会员</a>
+                        <li class="hidden-xs">
+                          <a href="/frontdesk/signup.jsp" class="dropdown-toggle lt"  style="color:#428bca">
+                            注册
+                          </a>
                         </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#" >退出</a>
+                    </c:when>
+                    <c:otherwise>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle bg clear" data-toggle="dropdown">
+                          <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
+                            <img src="/images/a0.png" alt="...">
+                          </span>
+                                    ${sessionScope.user.userName}<b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInRight">
+                                <li>
+                                    <span class="arrow top"></span>
+                                    <a href="/frontdesk/musiccollection.jsp">我的音乐收藏</a>
+                                </li>
+                                <li>
+                                    <a href="/frontdesk/mymember.jsp">我的会员</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="/userlogout" >退出</a>
+                                </li>
+                            </ul>
                         </li>
-                    </ul>
-                </li>-->
+                    </c:otherwise>
+                </c:choose>
             </ul>
         </div>
     </header>
@@ -103,7 +108,7 @@
                                     Discover
                                 </li>
                                 <li>
-                                    <a href="/index.jsp">
+                                    <a href="/WEB-INF/jsp/frontdesk/index.jsp">
                                         <i class="icon-disc icon text-success"></i>
                                         <span class="font-bold">热门&最新</span>
                                     </a>
@@ -129,8 +134,6 @@
                 </section>
             </section>
         </aside>
-     </section>
-     </section>
 
 </body>
 </html>

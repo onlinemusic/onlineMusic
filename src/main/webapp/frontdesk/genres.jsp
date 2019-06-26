@@ -121,7 +121,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m2.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m2.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Morbi id neque quam</a>
@@ -137,7 +137,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/a10.png" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/a10.png" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Aliquam sollicitudin venenatis ipsum</a>
@@ -153,7 +153,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m4.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m4.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Citudin venenatis ipsum ac</a>
@@ -169,7 +169,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m5.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m5.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Vestibulum ullamcorper sodales nisi</a>
@@ -185,7 +185,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m6.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m6.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Mauris convallis mauris at</a>
@@ -201,7 +201,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m0.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m0.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Sodales nisi nec condimentum</a>
@@ -217,7 +217,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m8.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m8.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Nisi nec condimentum</a>
@@ -233,7 +233,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m9.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m9.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Phasellus at ultricies nequ</a>
@@ -249,7 +249,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m10.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m10.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Quis malesuada augue</a>
@@ -265,7 +265,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m11.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m11.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Ipsum ac feugiat</a>
@@ -281,7 +281,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m12.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m12.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Ullamcorper sodales nisi nec condimentu</a>
@@ -297,7 +297,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m13.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m13.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Tudin venenatis ulum ullamcorper</a>
@@ -313,7 +313,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m14.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m14.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Sodales nisi nec condimentum</a>
@@ -329,7 +329,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m15.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m15.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Sec condimentum augue</a>
@@ -345,7 +345,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/a9.png" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/a9.png" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Dimentum at pellentesque volutpat</a>
@@ -361,7 +361,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m16.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m16.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Natis ipsum ac feugiat</a>
@@ -377,7 +377,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m17.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m17.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Dimentum tesque volut icies neque</a>
