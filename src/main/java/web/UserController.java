@@ -8,13 +8,11 @@ import utils.Message;
 import domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.transaction.annotation.Transactional;
 import service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.util.Date;
 
@@ -35,7 +33,7 @@ public class UserController {
             userService.addUser(user);
             session.setAttribute("user",user);
 
-            return "index";  //返回首页
+            return "frontdesk/index";  //返回首页
         }else if(result == 0){ //用户已存在
             message.setMessage("用户已经存在");
         }else{
@@ -58,7 +56,7 @@ public class UserController {
             return "WEB-INF/jsp/admin/index";
         }else if(result == 2){
             session.setAttribute("user",userService.findUser(user.getEmail()));
-            return "index";
+            return "frontdesk/index";
         } else {
             message.setMessage("服务器响应失败，请稍后重试");
         }
@@ -70,7 +68,7 @@ public class UserController {
     @GetMapping(value="/userlogout")
     public String logout(HttpSession session){
         session.removeAttribute("user");
-        return "index";
+        return "frontdesk/index";
     }
 
     //发送邮箱验证码
@@ -95,6 +93,7 @@ public class UserController {
         return jsonObject;
     }
 
+    //修改密码
     @PostMapping(value = "/changepassword")
     public String changePassword(User user,@RequestParam(value = "code") String code,HttpSession session,HttpServletRequest request){
         String codeTrue= ((Integer) session.getAttribute("code")).toString();

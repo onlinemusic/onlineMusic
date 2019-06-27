@@ -23,7 +23,7 @@
 <body class="bg-info dker">
   <section id="content" class="m-t-lg wrapper-md animated fadeInUp">    
     <div class="container aside-xl">
-      <a class="navbar-brand block" href="/WEB-INF/jsp/frontdesk/index.jsp"><span class="h1 font-bold">在线音乐平台</span></a>
+      <a class="navbar-brand block" href="/index.jsp"><span class="h1 font-bold">在线音乐平台</span></a>
       <section class="m-b-lg">
         <header class="wrapper text-center">
           <strong>密码登录</strong>

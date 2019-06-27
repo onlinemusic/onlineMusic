@@ -26,8 +26,8 @@
             <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
                 <i class="icon-list"></i>
             </a>
-            <a href="/frontdesk/index.jsp" class="navbar-brand text-lt">
-                <i class="icon-earphones"></i>
+            <a href="/index.jsp" class="navbar-brand text-lt">
+                <i class="icon-earphones fa-3x"></i>
                 <img src="/images/logo.png" alt="." class="hide">
                 <span class="hidden-nav-xs m-l-sm">Music</span>
             </a>
@@ -48,7 +48,7 @@
                 <span class="input-group-btn">
                   <button type="submit" class="btn btn-sm bg-white btn-icon rounded"><i class="fa fa-search"></i></button>
                 </span>
-                    <input type="text" class="form-control input-sm no-border rounded" placeholder="搜索歌名、歌手">
+                    <input type="text" class="form-control input-sm no-border rounded" placeholder="搜索歌名">
                 </div>
             </div>
         </form>
@@ -81,7 +81,7 @@
                                     <a href="/frontdesk/musiccollection.jsp">我的音乐收藏</a>
                                 </li>
                                 <li>
-                                    <a href="/frontdesk/mymember.jsp">我的会员</a>
+                                    <a href="/vip/${sessionScope.user.userId}">我的会员</a>
                                 </li>
                                 <li class="divider"></li>
                                 <li>
@@ -108,7 +108,7 @@
                                     Discover
                                 </li>
                                 <li>
-                                    <a href="/WEB-INF/jsp/frontdesk/index.jsp">
+                                    <a href="/frontdesk/index.jsp">
                                         <i class="icon-disc icon text-success"></i>
                                         <span class="font-bold">热门&最新</span>
                                     </a>
