@@ -8,6 +8,6 @@
   - 需求尽量只增不删  
   ![需求图片](src/main/webapp/images/f0805b8470b3f00d4c073eea238d27e.png)
   - 开发工具idea
-  - 项目访问路径/onlinemusic
+  - 项目访问路径/
   
   
