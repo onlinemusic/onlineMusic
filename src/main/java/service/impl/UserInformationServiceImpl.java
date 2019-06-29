@@ -2,16 +2,15 @@ package service.impl;
 
 
 import dao.UserInformationDao;
-import domain.User;
 import domain.UserInformation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import service.UserInfomationService;
+import service.UserInformationService;
 
 @Service
 @Transactional
-public class UserInformationServiceImpl implements UserInfomationService {
+public class UserInformationServiceImpl implements UserInformationService {
 
     @Autowired
     private  UserInformationDao userInformationDao;

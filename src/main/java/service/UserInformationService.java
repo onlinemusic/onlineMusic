@@ -3,7 +3,7 @@ package service;
 import domain.User;
 import domain.UserInformation;
 
-public interface UserInfomationService {
+public interface UserInformationService {
 
     //获取用户信息
     public UserInformation showvip(Integer userId);

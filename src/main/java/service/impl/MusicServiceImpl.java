@@ -25,4 +25,14 @@ public class MusicServiceImpl implements MusicService {
             return null;
         }
     }
+
+    @Override
+    public Music singlemusic(Integer Id) {
+        try {
+            return musicDao.findByMusicId(Id);
+        }catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 }

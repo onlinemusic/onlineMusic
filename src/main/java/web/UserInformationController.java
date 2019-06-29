@@ -1,16 +1,12 @@
 package web;
 
-import domain.User;
 import domain.UserInformation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import service.UserInfomationService;
+import service.UserInformationService;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -19,7 +15,7 @@ import java.util.Date;
 public class UserInformationController {
 
     @Autowired
-    UserInfomationService userInfomationService;
+    UserInformationService userInfomationService;
 
     //获取vip信息
     @GetMapping(value="/{userId}")

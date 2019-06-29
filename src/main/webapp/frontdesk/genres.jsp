@@ -105,7 +105,7 @@
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="track-detail.jsp"><img src="/onlinemusic/images/m1.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="track-detail.jsp"><img src="/images/m1.jpg" alt="" class="r r-2x img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="track-detail.jsp" data-bjax data-target="#bjax-target" data-el="#bjax-el" data-replace="true" class="text-ellipsis">Tempered Song</a>

@@ -27,7 +27,7 @@
                 <i class="icon-list"></i>
             </a>
             <a href="/index.jsp" class="navbar-brand text-lt">
-                <i class="icon-earphones fa-3x"></i>
+                <i class="icon-earphones"></i>
                 <img src="/images/logo.png" alt="." class="hide">
                 <span class="hidden-nav-xs m-l-sm">Music</span>
             </a>
@@ -108,7 +108,7 @@
                                     Discover
                                 </li>
                                 <li>
-                                    <a href="/frontdesk/index.jsp">
+                                    <a href="/index.jsp">
                                         <i class="icon-disc icon text-success"></i>
                                         <span class="font-bold">热门&最新</span>
                                     </a>
@@ -117,12 +117,6 @@
                                     <a href="/frontdesk/genres.jsp">
                                         <i class="icon-music-tone-alt icon text-info"></i>
                                         <span class="font-bold">分类</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/frontdesk/listen.jsp">
-                                        <i class="icon-list icon  text-info-dker"></i>
-                                        <span class="font-bold">播放列表</span>
                                     </a>
                                 </li>
 

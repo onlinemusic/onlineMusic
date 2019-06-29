@@ -33,7 +33,7 @@
                                             </div>
                                             <div class="item-overlay opacity r r-2x bg-black">
                                                 <div class="center text-center m-t-n">
-                                                    <a href="#" data-toggle="class">
+                                                    <a href="#" data-toggle="class" onclick="addList('${item.musicName}','${item.singer}','${item.src}','${item.pictureSrc}')">
                                                         <i class="icon-control-play i-2x "></i>
                                                     </a>
                                                 </div>
@@ -43,7 +43,7 @@
                                                              class="r r-2x img-full"></a>
                                         </div>
                                         <div class="padder-v">
-                                            <a href="/show/${item.id}" class="text-ellipsis">
+                                            <a href="/single/${item.id}/1" class="text-ellipsis">
                                                     ${item.musicName}
                                                 <span class="text-ellipsis text-xs text-muted">${item.singer}</span>
                                             </a>
@@ -65,14 +65,16 @@
                                                 <div class="pos-rlt">
                                                     <div class="item-overlay opacity r r-2x bg-black">
                                                         <div class="center text-center m-t-n">
-                                                            <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
+                                                            <a href="#" onclick="addList('${item.musicName}','${item.singer}','${item.src}','${item.pictureSrc}')">
+                                                                <i class="fa fa-play-circle i-2x"></i>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                     <a href="#"><img src="${item.pictureSrc}" alt=""
                                                                      class="r r-2x img-full"></a>
                                                 </div>
                                                 <div class="padder-v">
-                                                    <a href="/show/${item.id}" class="text-ellipsis">
+                                                    <a href="/single/${item.id}/1" class="text-ellipsis">
                                                             ${item.musicName}
                                                         <span class="text-ellipsis text-xs text-muted">${item.singer}</span>
                                                     </a>
@@ -89,7 +91,7 @@
                                     <c:set var="row_count" value="0"></c:set>
                                     <c:forEach var="item" items="${requestScope.musicList}" begin="1" end="9" step="2">
                                         <c:set var="row_count" value="${row_count+1}"/>
-                                        <a href="/show/${item.id}" class="list-group-item clearfix">
+                                        <a href="/single/${item.id}/1" class="list-group-item clearfix">
                                             <span class="pull-right h2 text-muted m-l">${row_count}</span>
                                             <span class="pull-left thumb-sm avatar m-r">
                             <img src="${item.pictureSrc}" alt="...">
@@ -105,7 +107,7 @@
                         </div>
                         </div>
                     </section>
-                    <jsp:include page="tail.jsp" flush="true"></jsp:include>
+                    <jsp:include page="tail.jsp"></jsp:include>
                 </section>
             </section>
         </section>

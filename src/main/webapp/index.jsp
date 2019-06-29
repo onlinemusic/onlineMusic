@@ -3,6 +3,12 @@
 <head>
 </head>
 <body>
-    <jsp:include page='<%="/index"%>' flush="true" />
+
 </body>
+<script src="/js/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        window.location.href = "/index";
+    });
+</script>
 </html>
