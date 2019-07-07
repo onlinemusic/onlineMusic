@@ -2,8 +2,6 @@ package web;
 
 import domain.Comment;
 import domain.Music;
-import domain.User;
-import domain.UserInformation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -46,8 +44,19 @@ public class MusicController {
     public String showmusic(HttpServletRequest request) {
         List<Music> musicList = musicService.showmusic(0, 12);
 
-        request.setAttribute("musicList", musicList);
-        return "frontdesk/index";
+        //application范围 全局访问
+        request.getSession().getServletContext().setAttribute("musicList", musicList);
+        return "frontdesk/indexall";
+    }
+
+    //刷新部分页面
+    @GetMapping(value = "/part")
+    public String musicpart(HttpServletRequest request){
+        List<Music> musicList = musicService.showmusic(0, 12);
+
+        //application范围 全局访问
+        request.getSession().getServletContext().setAttribute("musicList", musicList);
+        return "frontdesk/indexpart";
     }
 
     //单页展示

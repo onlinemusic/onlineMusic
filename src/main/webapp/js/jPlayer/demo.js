@@ -2,7 +2,6 @@ var myPlaylist;
 
 $(document).ready(function () {
 
-
     myPlaylist = new jPlayerPlaylist({
         jPlayer: "#jplayer_N",
         cssSelectorAncestor: "#jp_container_N"
@@ -92,7 +91,6 @@ function addList(Atitle, Aartist, Amp3, Aposter) {
     } else { //列表不为空
         for (i in musicList) {
             //列表中歌曲已经存在
-            console.log(musicList[i]);
             var mp3 = musicList[i].mp3.substring(musicList[i].mp3.indexOf("/upload"));
             if (musicList[i].title == Atitle && mp3 == Amp3) {
                 temp = 1;
@@ -102,7 +100,6 @@ function addList(Atitle, Aartist, Amp3, Aposter) {
         }
         //列表中歌曲不存在
         if (temp == 0) {
-            musicList.setPlaylist()
             myPlaylist.add({
                 title: Atitle,
                 artist: Aartist,
@@ -113,6 +110,5 @@ function addList(Atitle, Aartist, Amp3, Aposter) {
             myPlaylist.play(++i);
         }
     }
-
 
 }

@@ -2,10 +2,27 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en" class="app">
-<head></head>
+<head>
+    <meta charset="utf-8"/>
+    <title>Music | Web Application</title>
+    <meta name="description"
+          content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="/js/jPlayer/jplayer.flat.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/animate.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/simple-line-icons.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/font.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/app.css" type="text/css"/>
+    <!--[if lt IE 9]>
+    <script src="/js/ie/html5shiv.js"></script>
+    <script src="/js/ie/respond.min.js"></script>
+    <script src="/js/ie/excanvas.js"></script>
+    <![endif]-->
+</head>
 <body class="">
 <section class="vbox">
-    <jsp:include page="head.jsp"></jsp:include>
     <section>
         <section class="hbox stretch">
             <section id="content">
@@ -32,17 +49,17 @@
                                                 <span class="text-danger">vip专属下载</span>
                                             </c:if>
                                             <div class="m-b-lg">
-                                                <a href="#" class="btn btn-info">播放</a>
+                                                <a  href="javascript:void(0)" onclick="window.parent.addList('${music.musicName}','${music.singer}','${music.src}','${music.pictureSrc}')" class="btn btn-info">播放</a>
                                                 <a href="#" class="btn btn-default"><i class="fa fa-plus-circle"
                                                                                        aria-hidden="true"></i>&nbsp;收藏</a>
                                                 <c:choose>
                                                     <c:when test="${music.vip !=1}">
-                                                        <a href="#" class="btn btn-default"><i
+                                                        <a href="${music.src}" class="btn btn-default"><i
                                                                 class="fa fa-cloud-download" aria-hidden="true"></i>&nbsp;下载</a>
                                                     </c:when>
                                                     <c:otherwise>
                                                         <c:if test="${!empty sessionScope.user.userInformation && sessionScope.user.userInformation.vip ==1}">
-                                                            <a href="#" class="btn btn-default"><i
+                                                            <a href="${music.src}" class="btn btn-default"><i
                                                                     class="fa fa-cloud-download" aria-hidden="true"></i>&nbsp;下载</a>
                                                         </c:if>
                                                     </c:otherwise>
@@ -78,13 +95,23 @@
 
                                         <ul class="pagination pagination pull-right">
                                             <c:if test="${requestScope.pageNumber > 1}">
-                                                <li><a href="/single/${requestScope.music.id}/${requestScope.pageNumber-1}"><i class="fa fa-chevron-left"></i></a></li>
-                                                <li><a href="/single/${requestScope.music.id}/${requestScope.pageNumber-1}">${requestScope.pageNumber-1}</a></li>
+                                                <li>
+                                                    <a href="/single/${requestScope.music.id}/${requestScope.pageNumber-1}"><i
+                                                            class="fa fa-chevron-left"></i></a></li>
+                                                <li>
+                                                    <a href="/single/${requestScope.music.id}/${requestScope.pageNumber-1}">${requestScope.pageNumber-1}</a>
+                                                </li>
                                             </c:if>
-                                                <li class="active"><a href="/single/${requestScope.music.id}/${requestScope.pageNumber}">${requestScope.pageNumber}</a></li>
+                                            <li class="active"><a
+                                                    href="/single/${requestScope.music.id}/${requestScope.pageNumber}">${requestScope.pageNumber}</a>
+                                            </li>
                                             <c:if test="${requestScope.pageNumber < requestScope.totalPage}">
-                                                <li><a href="/single/${requestScope.music.id}/${requestScope.pageNumber+1}">${requestScope.pageNumber+1}</a></li>
-                                                <li><a href="/single/${requestScope.music.id}/${requestScope.pageNumber+1}"><i class="fa fa-chevron-right"></i></a></li>
+                                                <li>
+                                                    <a href="/single/${requestScope.music.id}/${requestScope.pageNumber+1}">${requestScope.pageNumber+1}</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/single/${requestScope.music.id}/${requestScope.pageNumber+1}"><i
+                                                            class="fa fa-chevron-right"></i></a></li>
                                             </c:if>
                                         </ul>
                                     </section>
@@ -104,60 +131,25 @@
                                 <div class="panel panel-default">
                                     <div class="panel-heading">热门推荐</div>
                                     <div class="panel-body">
-                                        <article class="media">
-                                            <a href="#" class="pull-left thumb-md m-t-xs">
-                                                <img src="/images/m18.jpg">
-                                            </a>
-                                            <div class="media-body">
-                                                <a href="#" class="font-semibold">Bootstrap 3: What you need to know</a>
-                                                <div class="text-xs block m-t-xs"><a href="#">Travel</a> 2 minutes ago
+                                        <c:forEach var="item" items="${applicationScope.musicList}" begin="1" end="9"
+                                                   step="2">
+                                            <article class="media">
+                                                <a href="/single/${item.id}/1" class="pull-left thumb-md m-t-xs">
+                                                    <img src="${item.pictureSrc}">
+                                                </a>
+                                                <div class="media-body">
+                                                    <a href="/single/${item.id}/1"
+                                                       class="font-semibold">${item.musicName}</a>
+                                                    <div class="text-xs block m-t-xs"><span>${item.singer}</span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </article>
-                                        <article class="media">
-                                            <a href="#" class="pull-left thumb-md m-t-xs">
-                                                <img src="/images/m19.jpg">
-                                            </a>
-                                            <div class="media-body">
-                                                <a href="#" class="font-semibold">Lorem ipsum dolor sit amet it.</a>
-                                                <div class="text-xs block m-t-xs"><a href="#">Design</a> 2 hours ago
-                                                </div>
-                                            </div>
-                                        </article>
-                                        <article class="media">
-                                            <a href="#" class="pull-left thumb-md m-t-xs">
-                                                <img src="/images/m20.jpg">
-                                            </a>
-                                            <div class="media-body">
-                                                <a href="#" class="font-semibold">Sed diam nonummy tincidunt ut
-                                                    laoreet</a>
-                                                <div class="text-xs block m-t-xs"><a href="#">MFC</a> 1 week ago</div>
-                                            </div>
-                                        </article>
-                                        <article class="media">
-                                            <a href="#" class="pull-left thumb-md m-t-xs">
-                                                <img src="/images/m21.jpg">
-                                            </a>
-                                            <div class="media-body">
-                                                <a href="#" class="font-semibold">Lonummy nibh euismod sed laoreet</a>
-                                                <div class="text-xs block m-t-xs"><a href="#">MFC</a> 1 week ago</div>
-                                            </div>
-                                        </article>
-                                        <article class="media">
-                                            <a href="#" class="pull-left thumb-md m-t-xs">
-                                                <img src="/images/m22.jpg">
-                                            </a>
-                                            <div class="media-body">
-                                                <a href="#" class="font-semibold">Mibh euismod tincidunt ut laoreet</a>
-                                                <div class="text-xs block m-t-xs"><a href="#">MFC</a> 1 week ago</div>
-                                            </div>
-                                        </article>
+                                            </article>
+                                        </c:forEach>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <jsp:include page="tail.jsp" flush="true"></jsp:include>
                 </section>
                 <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open"
                    data-target="#nav,html"></a>
@@ -166,4 +158,11 @@
     </section>
 </section>
 </body>
+<script src="/js/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="/js/bootstrap.js"></script>
+<!-- App -->
+<script src="/js/app.js"></script>
+<script src="/js/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/js/app.plugin.js"></script>
 </html>

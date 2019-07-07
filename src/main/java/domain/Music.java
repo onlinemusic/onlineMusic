@@ -22,7 +22,7 @@ public class Music {
     @Column(columnDefinition="date COMMENT '上传时间'")
     @Temporal(TemporalType.DATE)
     private Date uploadDate;
-    @ManyToOne(cascade=CascadeType.MERGE)
+    @ManyToOne(cascade=CascadeType.MERGE,fetch=FetchType.EAGER )
     private MusicType musicType; //外键
 
     public String getPictureSrc() { return pictureSrc; }

@@ -33,7 +33,7 @@ public class UserController {
             userService.addUser(user);
             session.setAttribute("user",user);
 
-            return "frontdesk/index";  //返回首页
+            return "frontdesk/indexall";  //返回首页
         }else if(result == 0){ //用户已存在
             message.setMessage("用户已经存在");
         }else{
@@ -56,7 +56,7 @@ public class UserController {
             return "WEB-INF/jsp/admin/index";
         }else if(result == 2){
             session.setAttribute("user",userService.findUser(user.getEmail()));
-            return "frontdesk/index";
+            return "frontdesk/indexall";
         } else {
             message.setMessage("服务器响应失败，请稍后重试");
         }
@@ -68,7 +68,7 @@ public class UserController {
     @GetMapping(value="/userlogout")
     public String logout(HttpSession session){
         session.removeAttribute("user");
-        return "frontdesk/index";
+        return "frontdesk/indexall";
     }
 
     //发送邮箱验证码

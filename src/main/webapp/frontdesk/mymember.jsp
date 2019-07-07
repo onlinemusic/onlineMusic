@@ -3,10 +3,26 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html lang="en" class="app">
-<head></head>
+<head>
+    <meta charset="utf-8" />
+    <title>Music | Web Application</title>
+    <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="/js/jPlayer/jplayer.flat.css" type="text/css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="/css/simple-line-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/css/font.css" type="text/css" />
+    <link rel="stylesheet" href="/css/app.css" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="/js/ie/html5shiv.js"></script>
+    <script src="/js/ie/respond.min.js"></script>
+    <script src="/js/ie/excanvas.js"></script>
+    <![endif]-->
+</head>
 <body class="">
 <section class="vbox">
-    <jsp:include page="head.jsp"></jsp:include>
     <section>
         <section class="hbox stretch">
             <section id="content">
@@ -88,7 +104,6 @@
                             </table>
                         </form>
                     </section>
-                    <jsp:include page="tail.jsp" flush="true"></jsp:include>
                 </section>
                 <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen,open"
                    data-target="#nav,html"></a>
@@ -96,6 +111,14 @@
         </section>
     </section>
 </section>
+</body>
+<script src="/js/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="/js/bootstrap.js"></script>
+<!-- App -->
+<script src="/js/app.js"></script>
+<script src="/js/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/js/app.plugin.js"></script>
 <script type="text/javascript">
     function getmonth() {
         var num1 = document.getElementById('monthnumber').value; //获取第一个输入框的值
@@ -117,5 +140,4 @@
         document.getElementById('total').innerText = Number(document.getElementById('year').innerText) + Number(document.getElementById('month').innerText);
     }
 </script>
-</body>
 </html>
