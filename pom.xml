@@ -21,7 +21,7 @@
         <spring.version>5.0.8.RELEASE</spring.version>
         <aspectj.version>1.8.13</aspectj.version>
 
-        <jackson.version>2.9.3</jackson.version>
+        <jackson.version>2.9.10.3</jackson.version>
         <joda.version>2.3</joda.version>
         <jsp.version>2.3.1</jsp.version>
         <servlet.version>3.1.0</servlet.version>
